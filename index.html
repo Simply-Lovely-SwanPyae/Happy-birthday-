@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For You ❤️</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- INTRO -->
+<div id="intro" onclick="startExperience()">
+    <h1>Tap to Enter ❤️</h1>
+</div>
+
+<!-- MAIN -->
+<div id="main" class="hidden">
+
+<h1 class="title">Happy Birthday 🎂</h1>
+<h2 class="name" id="herName"></h2>
+
+<div id="timer" class="timer"></div>
+
+<button class="btn" onclick="showLetter()">Open Your Letter 💌</button>
+
+<div id="letterBox" class="hidden">
+    <div class="letter" id="letter"></div>
+
+    <button class="btn" onclick="showGallery()">See Our Memories 📸</button>
+</div>
+
+<div id="galleryBox" class="hidden">
+    <div class="gallery">
+        <img src="pic1.jpg">
+        <img src="pic2.jpg">
+        <img src="pic3.jpg">
+    </div>
+</div>
+
+</div>
+
+<!-- SECRET -->
+<div id="secret" class="hidden">
+    <div class="secretBox" id="secretText"></div>
+</div>
+
+<audio id="music" src="music.mp3"></audio>
+
+<script src="script.js"></script>
+</body>
+</html>
